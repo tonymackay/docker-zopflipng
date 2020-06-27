@@ -74,7 +74,7 @@ The following example shows how to compress an image located on the host where t
 
 ```
 docker run --rm -it -v $(pwd):/data \
-tonymackay/guetzli:1.0.3 -m -y test-image.jpg test-image-compressed.jpg
+tonymackay/zopflipng:1.0.3 -m -y test-image.jpg test-image-compressed.jpg
 ```
 
 
